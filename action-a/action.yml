@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet RadSal"
+author: "radsal@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "RadSal"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
